@@ -1,0 +1,61 @@
+.error-page h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.error-page h5 {
+    display: inline;
+    color: #787676;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+    
+   
+}
+.bar{
+margin-top: 50px;
+margin-left: 120px;
+
+}
+.error-page h4 {
+    display: inline;
+    margin-left: 10px;
+    align-items: center;
+    font-weight: 100;
+    
+   
+   
+}
+
+
+
+.error-page p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+   
+}
+
+.btn button{
+    
+  background-color: #d1463f; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 50px;
+  cursor: pointer;
+
+    
+}
