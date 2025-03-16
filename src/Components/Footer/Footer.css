@@ -1,56 +1,129 @@
-.footer{
+
+.footer {
     background-color: black;
-    color: white;
+    color: white; 
+    padding: 50px 5% 20px 5%; 
+    width: 90%; 
+    font-family: Arial, sans-serif; 
+}
+
+
+
+
+/* Container for footer sections */
+.footer-container {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* ------------------ Style for each footer section ------------------ */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+/* subscribe box style */
+.subscribe-box {
     display: flex;
-    margin-top: 90px;
-    padding: 50px;
-    font-family: poppins;
-    font-weight: 100;
-    
-}
-.footer h2{
-    font-size: 20px;
-    
-}
-.footer h4{
-    font-size: 13px;
-    
-}
-.exclusive{
-
-width: 20%;
-
-}
-.exclusive img{
-
-
-
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 220px;
 }
 
-.support{
-width: 19%;
-margin-left: 37px;
-
+.subscribe-box input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background: black;
+    color: white; 
+    outline: none;
 }
-.account{
-    margin-left: 20px;
-width: 20%;
 
+.subscribe-btn {
+    background: black !important;
+    color: black;
+    border: none; 
+    padding: 8px 12px;
+    cursor: pointer; 
 }
-.quicklink{
-width: 20%;
-margin-left: 20px;
 
+/* Style for footer list */
+.footer-list {
+    list-style: none;
+    padding: 0;
 }
-.download{
-width: 20%;
 
+.footer-list li {
+    font-size: 14px; 
+    margin-bottom: 6px; 
+    cursor: pointer;
+    transition: color 0.3s; 
 }
-.download p{
-    font-size: 12px;
 
+.footer-list li:hover {
+    color: yellow; 
 }
-.img1 .img2 {
-    display: inline;
 
+
+/* Layout for QR code and app store buttons */
+.qr-and-store {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+/* App store button images */
+.app-buttons img {
+    width: 120px;
+    display: block; 
+    margin-bottom: 8px; 
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    width: 80%; 
+    margin-top: 10px; 
+    font-size: 18px; 
+}
+
+.social-icons svg:hover {
+    color: yellow; 
+    cursor: pointer;
+}
+
+
+
+/* ------------------ Footer bottom section ------------------ */
+.footer-bottom {
+    text-align: center; 
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    font-size: 14px; 
+    margin-top: 20px; 
+    color: rgb(122, 122, 122); 
+}
+
+/* Brown text color for footer text */
+.text-brown{
+    color: rgb(145, 144, 144);
 }

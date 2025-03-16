@@ -1,3 +1,6 @@
+/* whole subheader */
+
+
 .sub-header{
     display: flex;
     text-align: center;
@@ -8,16 +11,18 @@
 }
 
     
-
+/* Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! */
 .sub-header p{
     margin-left: 200px;
     text-align: center;
 }
+/* ShopNow */
 .sub-header h5{
     margin-left: 10px;
     text-decoration: underline;
     text-align: center;
 } 
+/* English */
 .english h5{
     margin-left: 300px;
     text-align: center;
@@ -25,10 +30,16 @@
     text-decoration: none;
 
 }
+/* arrow for english */
 .english img {
     text-align: center;
-    height: 12px;
+    height: 10px;
     width: 10px;
     margin-left: 5px;
+    
 
+}
+.english p img{
+    margin-left: 5px;
+    text-align: center;
 }

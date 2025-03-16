@@ -1,6 +1,6 @@
 import React from 'react'
-import './subHeader.css'
-import arrow from "../../Components/Assets/Vector.png";
+
+import vector from "../../Components/Assets/Vector.png";
 
 
 
@@ -11,7 +11,7 @@ const subHeader = () => {
       <h5>ShopNow</h5>
       <div className="english">
         <h5>
-          English <img src={arrow} alt="" />
+          English <img src={vector} alt="" />
         </h5>
       </div>
     </div>

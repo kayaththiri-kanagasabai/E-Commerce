@@ -1,0 +1,20 @@
+.bar{
+margin-top: 50px;
+margin-left: 120px;
+
+}
+.account {
+  /* Add your styles for the account component */
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.account-content {
+  /* Add your styles for the account content */
+  color: #c31919;
+}

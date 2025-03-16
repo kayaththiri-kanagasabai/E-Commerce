@@ -1,18 +1,17 @@
 import React from "react";
-import SubHeader from "./Components/subHeader/subHeader";
-import Header from "./Components/Header/Header";
 import Errorpage from "./Components/Errorpage/Errorpage";
+import Account from "./Components/Account/Account";
 import Footer from "./Components/Footer/Footer";
+import Signup from "./Components/SignUp/Signup";
+
 
 const App = () => {
   return (
-    <div>
-     
-      <SubHeader />
-      <Header/>
-      <Errorpage/>
-      <Footer/>
-    </div>
+  <div>
+    
+<Footer/>
+    
+  </div>
   );
 };
 

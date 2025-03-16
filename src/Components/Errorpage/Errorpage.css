@@ -1,3 +1,4 @@
+/* 404 Not Found */
 .error-page h1 {
     display: flex;
     justify-content: center;
@@ -6,45 +7,39 @@
     font-family: 'Roboto';
     font-weight: 500;
     margin-bottom: 20px;
-    
+    width: 100%;  
 }
+/* Home  */
 .error-page h5 {
     display: inline;
     color: #787676;
     font-size: 16px;
     font-weight: 400;
-    
-    
-    
-   
 }
+/* Home/404 Error */
 .bar{
 margin-top: 50px;
-margin-left: 120px;
+margin-left: 10px;
 
 }
+/* slash */
 .error-page h4 {
     display: inline;
     margin-left: 10px;
     align-items: center;
     font-weight: 100;
-    
-   
-   
 }
 
 
-
+/* Your visited page not found. You may go home page */
 .error-page p {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-   
 }
-
-.btn button{
-    
+ /* for button tag */
+.btn button{ 
   background-color: #d1463f; 
   border: none;
   color: white;

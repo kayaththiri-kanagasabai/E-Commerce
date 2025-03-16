@@ -1,3 +1,6 @@
+
+/* whole header */
+
 .header  {
     display: flex;
     justify-content: space-between;
@@ -8,24 +11,28 @@
    
     
 }
+/* Exclusive */
 .header h4 {
     margin-left: 140px;
     font-family: poppins;
     font-size: 20px;
 
 }
+/* nav bar list */
 .header ul li{
     display: flex;
     justify-content: space-between;
     list-style: none;
     margin: 15px;
 }
+/* navbar ul */
 .header ul{
     margin-left: 80px;
     display: flex;
     justify-content: space-between;
     
 }
+/* input tag for search */
 .search-bar input{
     margin-right: 0%;
     margin-left: 120px;
@@ -40,10 +47,12 @@
     border-color: rgb(207, 206, 220);
  
 }
+/* search icon */
 .search-bar img{
    display: flex;
    text-align: center;
 }
+/* cart,heart,user icon */
 .symbols{
     display: flex;
     justify-content: space-between;
@@ -61,6 +70,7 @@
     padding: 2px;
     margin-left: 0%;
 }
+/* horizontal line */
 .line{
     background-color: rgb(202, 201, 201);
     width: 100%;

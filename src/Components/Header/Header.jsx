@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+
 import heart from "../../Components/Assets/Wishlist.png";
 import cart from "../../Components/Assets/Cart1 with buy.png";
 import User from "../../Components/Assets/user.png";
