@@ -1,8 +1,8 @@
 import React from 'react'
-
-import heart from "../../Components/Assets/Wishlist.png";
-import cart from "../../Components/Assets/Cart1 with buy.png";
-import User from "../../Components/Assets/user.png";
+import "./Header.css";
+// import heart from "../../Components/Assets/header/Wishlist.png";
+// import cart from "../../Components/Assets/header/Cart1 with buy.png";
+// import User from "../../Components/Assets/header/user.png";
 
 const Header = () => {
   return (
@@ -25,11 +25,11 @@ const Header = () => {
             placeholder="What are you loocking for?       🔍︎"
           />
         </div>
-        <div className="symbols">
+        {/* <div className="symbols">
           <img src={heart} alt="" />
           <img src={cart} alt="" />
           <img src={User} alt="" />
-        </div>
+        </div> */}
       </div>
       <div className="line"></div>
     </div>

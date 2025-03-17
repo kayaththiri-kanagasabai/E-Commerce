@@ -1,10 +1,8 @@
-import React from 'react'
-import './Errorpage.css';
-import Header from '../Header/Header';
-import SubHeader from '../subHeader/subHeader';
-import Footer from '../Footer/Footer';
-
-
+import React from "react";
+import "./Errorpage.css";
+import Header from "../Header/Header";
+import SubHeader from "../subHeader/SubHeader";
+import Footer from "../Footer/Footer";
 
 const Errorpage = () => {
   return (
@@ -27,9 +25,9 @@ const Errorpage = () => {
         </center>
       </div>
       {/* import footer section */}
-      <Footer/>
+      <Footer />
     </div>
   );
-}
+};
 
 export default Errorpage;

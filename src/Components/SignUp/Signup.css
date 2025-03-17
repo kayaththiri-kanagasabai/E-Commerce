@@ -1,0 +1,94 @@
+
+
+/* whole page */
+.signup{
+    display: flex;
+    font-family: poppins;
+}
+   
+
+
+/* side-image */
+
+
+.side-image{
+   
+    margin-top: 60px;
+    margin-bottom: 100px;
+   
+
+    
+    
+}
+/* form */
+.signup-form{
+    display: inline;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.signup-form h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.signup-form input{
+    width: 250px;
+    height: 30px;
+    border-width: 1.5px;
+    border-color: rgb(156, 156, 156);
+    margin-bottom: 30px;
+    border-top: white;
+    border-left:white ;
+    border-right: white;
+}
+/* create-accout button */
+.create-accout{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(203, 38, 38);
+    color:#fff;
+    border: solid;
+    cursor: pointer;
+    border-width: 1px;
+     font-size: 15px;
+}
+/* sign-with-google button */
+.sign-with-google{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border-color:rgb(101, 100, 100);
+    border: solid;
+    cursor: pointer;
+    border-width: 1px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 200px;
+    display: flex;
+}
+/* google icon */
+.google{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+/* login-meg */
+.login-meg{
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+}
+.login-meg  a{
+    color:rgb(69, 67, 67) ;
+      font-weight: 700;
+      margin-left: 20px;
+      text-decoration: underline;
+      text-decoration:underline;
+}
+.login-meg  h4{
+    color:rgb(69, 67, 67) ;
+    font-weight: 500;
+}

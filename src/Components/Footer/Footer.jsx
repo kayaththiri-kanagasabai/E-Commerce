@@ -1,16 +1,20 @@
 // Footer Component: Displays the footer section of the website including subscribe, support, account, quick links, app download, and social media icons.
 import React from 'react';
 import "./Footer.css";
-import AppStore from "../../Components/Assets/footer-download-appstore.png";
-import GooglePlay from "../../Components/Assets/footer-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png";
-import Qr_Code from "../../Components/Assets/footer-Qr Code.png";
-import Vector from "../../Components/Assets/footer-Vector (9).png";
+import AppStore from "../../Components/Assets/footer/download-appstore.png";
+import GooglePlay from "../../Components/Assets/footer/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png";
+import Qr_Code from "../../Components/Assets/footer/Qr Code.png";
+import Vector from "../../Components/Assets/footer/Vector (9).png";
+import facebook from "../../Components/Assets/footer/Vector (10).png";
+import twitter from "../../Components/Assets/footer/Icon-Twitter.png";
+import instagram from "../../Components/Assets/footer/icon-instagram.png";
+import linkedin from "../../Components/Assets/footer/Vector (11).png";
+
 
 
 const Footer = () => {
   return (
     <footer className="footer">
-
       <div className="footer-container">
         {/* Subscribe Section */}
         <div className="footer-section">
@@ -72,7 +76,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="social-icons">
-          
+            <img src={facebook} alt="" />
+            <img src={twitter} alt="" />
+            <img src={instagram} alt="" />
+            <img src={linkedin} alt="" />
           </div>
         </div>
       </div>

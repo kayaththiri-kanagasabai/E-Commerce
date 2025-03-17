@@ -1,6 +1,7 @@
 import React from 'react'
+import "./SubHeader.css";
 
-import vector from "../../Components/Assets/Vector.png";
+import vector from "../../Components/Assets/Subheader/Vector.png";
 
 
 

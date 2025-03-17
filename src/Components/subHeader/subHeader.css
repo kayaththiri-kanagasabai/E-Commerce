@@ -8,6 +8,8 @@
     align-items: center;
     background-color:black;
     color: white;
+    height: 46px;
+    font-size: 12px;
 }
 
     
@@ -21,12 +23,13 @@
     margin-left: 10px;
     text-decoration: underline;
     text-align: center;
+    display: flex;
 } 
 /* English */
 .english h5{
     margin-left: 300px;
     text-align: center;
-    display: flex;
+   
     text-decoration: none;
 
 }
