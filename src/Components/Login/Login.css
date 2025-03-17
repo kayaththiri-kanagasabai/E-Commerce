@@ -1,0 +1,97 @@
+
+
+/* whole page */
+.log-in{
+    display: flex;
+    font-family: poppins;
+}
+   
+/* side-image */
+
+
+.side-image{
+   
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+/* form */
+.login-form{
+    display: inline;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+.login-form h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+.login-form h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    
+}
+.login-form input{
+    width: 250px;
+    height: 30px;
+    border-width: 1.5px;
+    border-color: rgb(156, 156, 156);
+    margin-bottom: 30px;
+    border-top: white;
+    border-left:white ;
+    border-right: white;
+    margin-top: 16px;
+}
+/* create-accout button */
+.Log-In-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(203, 38, 38);
+    color:#fff;
+    border: solid;
+    cursor: pointer;
+    border-width: 1px;
+     font-size: 15px;
+     margin-left: 6px;
+     
+     
+     
+}
+
+
+/* Forget-Password */
+.Forget-Password a{
+margin-top: 0%;
+
+margin-left: 0%;
+margin-right: 50px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+button {
+   background-color: rgb(173, 28, 28);
+    color: white;
+    border: none;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a {
+    color: rgb(173, 28, 28);
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 26px;
+}
+
+
