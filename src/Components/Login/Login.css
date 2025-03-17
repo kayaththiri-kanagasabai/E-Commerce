@@ -7,8 +7,6 @@
 }
    
 /* side-image */
-
-
 .side-image{
    
     margin-top: 60px;
@@ -55,19 +53,14 @@
     border-width: 1px;
      font-size: 15px;
      margin-left: 6px;
-     
-     
-     
 }
 
 
 /* Forget-Password */
 .Forget-Password a{
 margin-top: 0%;
-
 margin-left: 0%;
 margin-right: 50px;
-
 }
 
 .container {
