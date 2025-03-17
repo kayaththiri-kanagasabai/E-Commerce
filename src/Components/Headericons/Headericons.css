@@ -1,0 +1,17 @@
+/* cart,heart,user icon */
+ .symbols{
+    display: flex;
+    margin-right: 90px;
+    
+   
+    
+    
+    
+}
+.symbols img{
+    display: flex;
+    margin-right: 10px;
+ 
+    
+    
+} 

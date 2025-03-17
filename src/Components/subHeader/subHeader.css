@@ -24,7 +24,11 @@
     text-decoration: underline;
     text-align: center;
     display: flex;
+
 } 
+.sub-header:hover{
+ cursor: pointer;
+}
 /* English */
 .english h5{
     margin-left: 300px;

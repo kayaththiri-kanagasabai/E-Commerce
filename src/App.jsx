@@ -4,13 +4,16 @@ import Account from "./Components/Account/Account";
 import Footer from "./Components/Footer/Footer";
 import Signup from "./Components/SignUp/Signup";
 import Login from "./Components/Login/Login";
+import Headericons from "./Components/Headericons/Headericons";
+import Header from "./Components/Header/Header";
+
 
 
 const App = () => {
   return (
   <div>
   
-   <Login/>
+<Signup/>
 
    
   </div>

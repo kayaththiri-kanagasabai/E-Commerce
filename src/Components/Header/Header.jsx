@@ -1,12 +1,14 @@
 import React from 'react'
 import "./Header.css";
-// import heart from "../../Components/Assets/header/Wishlist.png";
-// import cart from "../../Components/Assets/header/Cart1 with buy.png";
-// import User from "../../Components/Assets/header/user.png";
+import Headericons from '../Headericons/Headericons';
+import SubHeader from "../subHeader/SubHeader";
+
+
 
 const Header = () => {
   return (
     <div className="out-header">
+   
       <div className="header">
         <h4>
           <b>Exclusive</b>
@@ -22,14 +24,10 @@ const Header = () => {
         <div className="search-bar">
           <input
             type="search"
-            placeholder="What are you loocking for?       🔍︎"
+            placeholder=" What are you loocking for?       🔍︎"
           />
         </div>
-        {/* <div className="symbols">
-          <img src={heart} alt="" />
-          <img src={cart} alt="" />
-          <img src={User} alt="" />
-        </div> */}
+        <Headericons />
       </div>
       <div className="line"></div>
     </div>
